@@ -6,7 +6,7 @@ possui diversas bibliotecas voltadas ao processamento de imagem. Entre elas a bi
 geralmente utilizada para manipulação de arquivos e a biblioteca [TensorFlow](https://www.tensorflow.org/), amplamente utilizada
 em técnicas de machine learning. 
 
-Além do processamento de imagem será utilizado o software OpenSource [NomeDoSoftwareDeMecsol](link)
+Além do processamento de imagem será utilizado o software OpenSource [Ftools](https://www.ftool.com.br/Ftool/)
 que é útil para simulação de forças em corpos rígidos, conteúdo estudado em Mecânica dos Sólidos.
 
-Para a aplicação mobile será utilizado o Java por meio da IDE AndroidStudio que permite criar aplicações Android de forma simples.
+Para a aplicação mobile pode ser utilizado o Java por meio do Android Studio caso seja feito apenas para Android ou algum outro framework como React Native ou Ionic caso seja desenvolvido para o IOS também.
