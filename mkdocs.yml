@@ -10,6 +10,9 @@ theme:
 repo_name: 'Projeto'
 repo_url: 'https://github.com/fga-projeto-integrador-1/Projeto'
 
+extra_css:   
+    - 'stylesheets/cards.css'
+
 plugins:
     - search
     - awesome-pages
