@@ -1,0 +1,5 @@
+pip>=19.0.3
+mkdocs
+mkdocs-material
+pygments
+mkdocs-awesome-pages-plugin

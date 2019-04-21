@@ -1,0 +1,15 @@
+site_name: Pi1
+dev_addr: '0.0.0.0:8000'
+theme: 
+    name: material
+    language: 'pt'
+    palette:
+        primary: 'white'
+    # logo: 'favicon.png'
+
+repo_name: 'Projeto'
+repo_url: 'https://github.com/fga-projeto-integrador-1/Projeto'
+
+plugins:
+    - search
+    - awesome-pages
