@@ -5,7 +5,7 @@ theme:
     language: 'pt'
     palette:
         primary: 'white'
-    # logo: 'favicon.png'
+    logo: 'docs/images/ssol-logo.jpg'
 
 repo_name: 'SSOL'
 repo_url: 'https://github.com/fga-projeto-integrador-1/SSol'
