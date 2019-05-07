@@ -2,6 +2,8 @@
 
 ## Principais Técnologias
 
+### No Backend:
+
 * Python 3: A linguagem erá utilizada para programar todo o backend, por possuir as bibliotecas que oferecem os meios de realizar os requisitos elicitados.
 
 * Flask: O Flask é um micro-framework para Python, focado em desenvolvimento Web, que será usado para construir as APIs do backend da aplicação. Além de vigorar sob a licença BSD, que permite uso livre desde que seja mantida a menção ao copyright do framework, o Flask é de fácil uso e aprendizado, por prover apenas o necessário para finalidade a qual ele se propõe. Por fim, as formas de deploy para produção utilizando este micro-framework também são simples e podem ser baratas dependendo da aplicação, já que o framework em sí é leve.
@@ -16,7 +18,15 @@ normalmente são causados por ambientes de desenvolvimento configurados de forma
 
 * OpenCV: Biblioteca para linguagem Python que será utilizada para o processamento de imagens, por seu extenso ferramental de manipulação de imagem.
 
-* Zbar : Biblioteca para linguagem Python que será utilizada para a leitura dos QRcodes envolvidos no processo. 
+* Zbar : Biblioteca para linguagem Python que será utilizada para a leitura dos QRcodes envolvidos no processo.
+
+
+### Para a aplicação mobile:
+
+* Java: Linguagem de programação que será utilizada para o desenvolvimento do aplicativo destinado a dispositivos Android. 
+
+* Android Studio: Ambiente de desenvolvimento integrado que será utilizado para desenvolver o aplicativo utilizando Java.
+
 
 ## Referências
 
