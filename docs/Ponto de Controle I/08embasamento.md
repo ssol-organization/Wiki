@@ -50,7 +50,7 @@ Em software, serão utilizados fundamentos de visão computacional para que seja
 A linguagem de programação Python possui diversas bibliotecas voltadas ao processamento de imagem.
 
 * OpenCV: Biblioteca do Python para manipulação de imagens;
-*Zbar : Biblioteca do Python útil na leitura e interpretação de QRCodes;
+* Zbar : Biblioteca do Python útil na leitura e interpretação de QRCodes;
 Após pesquisas, foram encontradas algumas técnicas úteis no processamento de imagem aplicáveis ao projeto:
 * Transformada de Hough: Técnica matemática que realiza detecção de formas geométricas em imagens digitais;
 * Algoritmo Canny: utilizado na detecção de bordas por meio da derivada;
