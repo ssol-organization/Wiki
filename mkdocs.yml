@@ -1,11 +1,11 @@
-site_name: SSOL DOCS
+site_name: SSol
 dev_addr: '0.0.0.0:8000'
 theme: 
     name: material
     language: 'pt'
     palette:
         primary: 'white'
-    logo: 'docs/images/ssol-logo.jpg'
+    logo: 'images/ssol-logo.jpg'
 
 repo_name: 'SSOL'
 repo_url: 'https://github.com/fga-projeto-integrador-1/SSol'

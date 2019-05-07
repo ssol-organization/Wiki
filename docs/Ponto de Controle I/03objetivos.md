@@ -1,4 +1,4 @@
-# OBJETIVOS
+# Objetivos
 
 ## Objetivo Geral
 

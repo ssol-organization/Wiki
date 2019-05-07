@@ -1,4 +1,4 @@
-# PROPÓSITO
+# Propósito
 
 <div style="text-align: justify">
 O ensino de mecânica dos sólidos está presente em grande parte das graduações de engenharia. Embora seja uma matéria de suma importância, há uma grande dificuldade no aprendizado de diversos conteúdos dessa disciplina. 

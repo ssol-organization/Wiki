@@ -45,8 +45,10 @@ O dimensionamento de uma estrutura requer um conhecimento detalhado da variaçã
 
 
 # Software
-Em software, serão utilizados fundamentos de visão computacional para que seja feito o reconhecimento de objetos assim como a deformação do material utilizado na estrutura. 
-A linguagem de programação Python possui diversas bibliotecas voltadas ao processamento de imagem. 
+Em software, serão utilizados fundamentos de visão computacional para que seja feito o reconhecimento de objetos assim como a deformação do material utilizado na estrutura.
+
+A linguagem de programação Python possui diversas bibliotecas voltadas ao processamento de imagem.
+
 * OpenCV: Biblioteca do Python para manipulação de imagens;
 *Zbar : Biblioteca do Python útil na leitura e interpretação de QRCodes;
 Após pesquisas, foram encontradas algumas técnicas úteis no processamento de imagem aplicáveis ao projeto:
