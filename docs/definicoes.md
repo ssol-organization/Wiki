@@ -32,7 +32,7 @@ normalmente são causados por ambientes de desenvolvimento configurados de forma
 
 ### Introdução
 
-A arquitetura escolhida para o projeto foi a orientada a microsserviços. Essa abordagem foi preferida porque facilita o desenvolvimento e a evolução do software cuja lógica seja mais modularizada, com partes diferentes do sistema fazendo tarefas específicas, autônomas, e que podem ser produzidas de forma separada por times diferentes como se fossem projetos singulares. Dessa forma, cada microsserviço tem seu papel e comunicam-se com os outros, no caso deste projeto, através do protocolo HTTP. 
+A arquitetura escolhida para o projeto foi a orientada a microsserviços. Essa abordagem foi preferida porque facilita o desenvolvimento e a evolução do software cuja lógica seja mais modularizada, com partes diferentes do sistema fazendo tarefas específicas, autônomas, e que podem ser produzidas de forma separada por times diferentes como se fossem projetos singulares. Dessa forma, cada microsserviço tem seu papel e comunica-se com os outros, no caso deste projeto, através do protocolo HTTP. 
 
 ## Diagrama da arquitetura
 
