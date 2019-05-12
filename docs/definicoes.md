@@ -28,6 +28,19 @@ normalmente são causados por ambientes de desenvolvimento configurados de forma
 * Android Studio: Ambiente de desenvolvimento integrado que será utilizado para desenvolver o aplicativo utilizando Java.
 
 
+### Política de branches e ambientes da pipeline
+
+Aqui será descrito como funcionará as branches do projeto.
+
+Branch master - Possuí o código correspondente ao ambiente de produção, que é o que vigora na aplicação em si. Os códigos são mandados para master apenas após serem devidamente testados e validados nos estágios anteriores, tanto singularmente quanto como conjunto. A atualização do ambiente de produção é feita por releases, a cada conjunto significativo de mudanças.
+
+Branch develop - Develop é a branch com um nível inferior de estabilidade, para a qual são mandadas as features após elas terem sido implementadas, testadas e revisadas singularmente. Ela vai sendo atualizada conforme as features vão sendo implementadas e é nela que se tem a primeira oportunidade de testar o sistema como conjunto de suas funcionalidades. A execução do código nessa branch irá constituir também o ambiente de homologação, pelo qual a aplicação poderá ser testada pelos clientes e/ou usuários em busca de validar suas funções.
+
+Branches feature - Essas são as branches nas quais as features são desenvolvidas individualmente, elas são criadas a partir da develop com o nome começando com feature/, exemplo: feature/reconhecimento-de-imagem, e, ao final, são agregadas novamente na branch de origem via pull-request.
+
+Branches documentation - Essas são as branches nas quais são criados os documentos do projeto, elas são criadas a partir da develop com o nome começando com documentation/, exemplo: documentation/arquitetura, e, ao final, são agregadas novamente na branch de origem via pull-request.
+
+
 ## Arquitetura do software
 
 ### Introdução
