@@ -39,22 +39,6 @@ Branch develop - Develop é a branch com um nível inferior de estabilidade, par
 Branches feature - Essas são as branches nas quais as features são desenvolvidas individualmente, elas são criadas a partir da develop com o nome começando com feature/, exemplo: feature/reconhecimento-de-imagem, e, ao final, são agregadas novamente na branch de origem via pull-request.
 
 Branches documentation - Essas são as branches nas quais são criados os documentos do projeto, elas são criadas a partir da develop com o nome começando com documentation/, exemplo: documentation/arquitetura, e, ao final, são agregadas novamente na branch de origem via pull-request.
-## Arquitetura do software
-
-### Introdução
-
-A arquitetura escolhida para o projeto foi a orientada a microsserviços. Essa abordagem foi preferida porque facilita o desenvolvimento e a evolução do software cuja lógica seja mais modularizada, com partes diferentes do sistema fazendo tarefas específicas, autônomas, e que podem ser produzidas de forma separada por times diferentes como se fossem projetos singulares. Dessa forma, cada microsserviço tem seu papel e comunica-se com os outros, no caso deste projeto, através do protocolo HTTP. 
-
-## Diagrama da arquitetura
-
-![diagrama](images/arquitetura.png)
-
-* _Calculus API_: microsserviço responsável por gerenciar os diagramas e cálculos resultantes do experimento, podendo retorna-los de duas origens diferentes dependendo da requisição, a partir do banco de dados ou a partir de um novo processo de análises e cálculos. Quando a segunda opção entre em vigor, o microsserviço gera os novos resultados a partir de informações recebidas pela requisição, que deverão descrever as variáveis envolvidas, tais como os pesos, apoios e a barra. 
-
-* _Image Processing API_:  microsserviço responsável por, a partir de uma imagem da bancada de experimentos que será provida pelo microcontrolador com o módulo câmera, identificar e retornar quando requisitado as informações relativas aos pesos, apoios e a barra, retiradas dos QRcodes e da diagramação através das técnicas de visão computacional. 
-
-* _Aplicativo mobile_: Aplicativo pelo qual o usuário irá interagir digitalmente com o sistema, tanto para requisitar a geração de novos diagramas e cálculos quanto para ver os mesmos. 
-
 
 
 ## Arquitetura do software
