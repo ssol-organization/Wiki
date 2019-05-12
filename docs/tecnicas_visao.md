@@ -1,4 +1,4 @@
-# Técnicas de visão computacional aplicáveis ao projeto:
+# Técnicas de Visão Computacional
 
 ## Detecção da viga e diferentes níveis de cor:
 Antes de tudo é necessário instalar algumas bibliotecas. Recomenda-se instalar um ambiente virtual para evitar problemas no python nativo do computador. Para instalar é necessário o gerenciador de pacotes pip.
